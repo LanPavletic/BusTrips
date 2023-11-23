@@ -73,7 +73,7 @@ public class RouteStops {
         }
 
         // Get only the first number of requested buses
-        stops = stops.subList(0, numberOfBuses + 1);
+        stops = stops.subList(0, numberOfBuses);
     }
 
     static class TimeComparator implements Comparator<String> {
