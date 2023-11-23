@@ -8,9 +8,15 @@ Maven is recommended for this project. You can view the official installation st
 
 * compiling:
 ```sh
-  mvn compile
+mvn compile
   ```
 * running:
 ```sh
-  mvn exec:java -q -Dexec.mainClass="busTrips.App" -Dexec.args="2 5 absolute"
+mvn exec:java -q -Dexec.mainClass="busTrips.App" -Dexec.args="2 5 absolute"
+  ```
+example result:
+```sh
+101: 12:20, 12:25, 12:25, 12:35, 12:40
+106: 12:20, 12:21, 12:25, 12:26, 12:35
+107: 12:20, 12:25, 12:26, 12:35, 12:41
   ```
